@@ -1,34 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Preview Card</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main class="card">
+      <img
+        src="assets/images/illustration-article.svg"
+        alt="Ilustración del artículo"
+        class="card-image"
+      />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+      <div class="card-content">
+        <span class="tag">Aprendizaje</span>
+        <h1 class="title">HTML & CSS foundations</h1>
+        <p class="description">
+          Estos lenguajes son la base de todo desarrollo web. Domínalos y podrás
+          construir interfaces sólidas y escalables.
+        </p>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-</body>
+        <div class="author">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="Avatar del autor"
+            class="avatar"
+          />
+          <p class="author-name">Greg Hooper</p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

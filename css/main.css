@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
+  max-width: 350px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.title {
+  margin: 15px 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  cursor: pointer;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.description {
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 42%);
+  line-height: 1.4;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-name {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
